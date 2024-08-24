@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Actor&family=Lily+Script+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body  {
+    font-family: "Lily Script One", system-ui;
+    color: #fff;
+    cursor: url("image/cursor.png"), auto;
+    
+}
+header, footer {
+    background: 
+    #1E1E1E;
+    
+}
+
+.lista{
+    list-style: none;
+    min-width: none;
+    max-width: 100vw;
+    height: 197px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 32px;
+    
+
+}
+section{
+    background: linear-gradient(180deg, rgb(6, 3, 35) 18%, rgb(17, 26, 73) 100%);
+    text-align: center;
+    display: block;
+}
+.filmes{
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+    margin: 80px 180px; 
+    justify-content: center space-evenly; 
+    align-items: center;
+    grid-row-gap: 100px;
+
+
+}
+
+footer{
+    font-family: "Actor", sans-serif;
+    text-align: center;
+    padding: 50px;
+    .icone{
+        align-items: flex-end;
+        justify-content: center;
+        
+        
+    
+    }
+    
+    
+    
+     
+    
+}
+
